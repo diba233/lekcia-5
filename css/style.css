@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 header {
-	/*border: 2px solid green;*/
+	display: inline-block;
+/*	border: 2px solid green;*/
 	width: 1440px;
 	height: 50px;
-	margin-bottom: 25px;
+	margin-top: auto;
+	margin-bottom: 20px;
+	margin-left: 20px;
 	font-family: helvetica;
 	background: white;
 	position: sticky;
@@ -14,6 +17,7 @@ header {
 }
 .header-main{
 	display: inline-block;
+	margin-left: 40px;
 	
 }
 .logo {
@@ -25,7 +29,6 @@ header {
 }
 nav {
 	display: inline-block;
-	margin-top: 22px;
 	margin-bottom: 19px;
 }
 li {
@@ -47,6 +50,7 @@ li {
 .text1 {
 	font-size: 13px;
 	margin: 76px 39px 16px 40px;
+	font-family: helvetica;
 
 }
 
@@ -116,15 +120,18 @@ h5 {
 footer {
 	width: 1160px;
 	height: 200px;
-	background: green;
+	background: #a6adb4;
 	margin: 0 auto;
 }
 .logo1 {
 	display: inline-block;
-	margin: 96px 91px 131px 0px;
+	margin: 59px 91px 131px 0px;
 }
 .text2, .text3, .text4 {
 	display: inline-block;
+	font-size: 13px;
+	vertical-align: top;
+	margin-top: 47px;
 	
 }
 .text3 {
@@ -136,16 +143,23 @@ margin-right: 50px;
 }
 h2 {
 	display: inline-block;
+	font-size: 11px;
 	margin-right: 50px;
+	margin-top: 62px;
+	vertical-align: top;
+
 }
 .boloo {
 	display: inline-block;
-	background: blue;
-}
-.footer2 {
-	display: inline-block;
 	vertical-align: top;
-	margin-top: 90px;
+	margin-top: 62px;
+	margin-left: 164px;
 
 }
+.footer1 {
+	margin-top: 39px
+}
 
+.icon {
+	margin-left: 32px;
+}
